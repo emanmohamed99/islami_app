@@ -18,4 +18,3 @@ homescreen.routename:(context)=>homescreen(),
 );
   }
 }
-
