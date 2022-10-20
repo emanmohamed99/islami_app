@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
 return MaterialApp(
   title: 'my app',
-  routes: {
-homescreen.routename:(context)=>homescreen(),
-  },
-  initialRoute:homescreen.routename ,
-);
+      routes: {
+        homescreen.routename: (context) => homescreen(),
+      },
+      initialRoute: homescreen.routename,
+    );
   }
 }
